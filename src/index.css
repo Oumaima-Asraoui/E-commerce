@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tes styles personnalisés ici */
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05); /* Augmente la taille de 5% */
+    }
+}
+
+.pulse {
+    animation: pulse 1.5s ease-in-out infinite; /* Animation répétée */
+}
